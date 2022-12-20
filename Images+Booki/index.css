@@ -67,14 +67,13 @@ header{
   align-items: center;
   justify-content: space-between;
   margin-bottom: 63px;
-  /* max-width: 1340px; */
   width: 100%;
 }
 
 .logo{
   width: 61.09px;
   height: 19px;
-   margin-top: 45px; /* à revoir OK */
+   margin-top: 45px;
 }
 
 section#recherche{
@@ -124,7 +123,6 @@ input.search{
 .search::placeholder{  /* Pour écrire dans le form ça s'effacera quand on clique dessus pour écrire */
   color: black;
   font-weight: 700;
-  /* resize: 18px; */
   opacity: 1; /* mettre en noir sur tous les serveurs*/
 }
 
@@ -162,9 +160,7 @@ section.filtre{
   column-gap: 30px;
   flex-wrap: wrap;
   row-gap: 20px;
-  /* max-width: 914px;  modifié le 05/12/22 */
   width: 100%;
-  /* height: 50px; */
   align-items: center;
   margin-top: 31px;
 }
@@ -226,8 +222,7 @@ i.information{
 }
 
 div#hebergement{
-  /* max-width: 1340px; */
-  width: 100%;       /* modifié 07/12/22*/
+  width: 100%;     
   height: 626px;
   display: flex;
   justify-content: space-between;
@@ -237,11 +232,10 @@ div#hebergement{
 
 section.hebergement{
   max-width: 880px;
-  width: 100%;    /* modifié 07/12/22 */
+  width: 100%;   
   height: 626px;
   background-color: #F2F2F2;
   border-radius: 20px;
-  /* margin-right: 40px; */
   padding: 40px;
   display: flex;
   flex-direction: column;
@@ -284,7 +278,6 @@ div#articles{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* width: 100%; */
   gap: 10px;
   row-gap: 30px;
 }
@@ -392,7 +385,6 @@ i.cinq{
 }
 
 section#activites-marseille{
-  /* max-width: 1340px; */
   width: 100%;
   height: 505px;
   margin-top: 60px;
@@ -440,7 +432,6 @@ footer{
 display: flex;
 justify-content: flex-start;
 background-color: #F2F2F2;
-/* max-width: 1340px; */
 width: 100%;
 height: 225px;
 margin-top: 69px;
@@ -486,7 +477,6 @@ a.liens:hover{
  
 body{
   width: 100%;
-  /* margin: 0px auto; */
   padding: 0px 15px;
  }
  
@@ -603,8 +593,6 @@ div#populaire{
 section#activites-marseille{
   width: 100%;
   height: auto;
-  /* row-gap: 34px; */
-  /* margin-bottom: 69px; */
 }
 
 
@@ -661,7 +649,6 @@ footer{
     img.logo{
       width: 61.09px;
       height: 19px;
-      /* gap: 48.56px; */
       margin-top: 0px;
     }
 
@@ -706,13 +693,10 @@ footer{
     form{
       padding-left: 22px;
       padding-right: 22px;
-      /* max-width: 332px;
-      width: 100%;
-      height: 49px; */
     }
 
     form input{
-      min-width: 180px; /* trouver la bonne largeur  */
+      min-width: 180px; 
       width: 100%;
       height: 49px;
     } 
@@ -749,7 +733,6 @@ footer{
     }
 
     section.filtre{
-    /* flex-wrap: wrap; */
     display: flex;
     justify-content: space-between;
     padding: 0px 20px;
@@ -763,7 +746,6 @@ footer{
     }
 
     div#information{
-      /* padding: 0px; */
       min-width: 298px;
       width: 100%;
       height: 19px;
@@ -798,13 +780,11 @@ footer{
 
             article.articles-marseille{
             max-width: none;
-            /* min-width: 335px; */
             width: 100%;
             height: 199px;
             }
 
             .logement img{
-              /* min-width: 335px; */
               width: 100%;
               height: 124px;
             }
@@ -818,11 +798,9 @@ footer{
 
       div#populaire{
       flex-direction: column;
-      /* width: 100%; */
       }
 
         article.articles-populaires{
-        /* min-width: 334px !important; */
         max-width: 100%;
         width: 100%;
         height: 144px;
@@ -837,12 +815,10 @@ footer{
     }        
 
     section#activites-marseille{
-      /* flex-wrap: wrap; */
       padding: 20px;
     }
 
       div.activites-marseille{
-        /* flex-direction: column; */
         flex-wrap: wrap;
         width: 100%;
         height: auto;
@@ -851,7 +827,6 @@ footer{
 
       article.activites{
         max-width: none;
-        /* min-width: 334px; */
         width: 100%;
         height: 190px;
       }
@@ -859,7 +834,6 @@ footer{
         article.activites img{
           max-width: 100%;
           width: 100%;
-          /* min-width: 334px; */
           height: 134px;
         }
     
