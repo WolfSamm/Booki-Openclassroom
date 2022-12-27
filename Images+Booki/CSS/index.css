@@ -805,7 +805,7 @@ footer{
     }
 
       div#populaire{
-      flex-direction: column; ,/**/
+      flex-direction: column; /**/
       }
 
         article.articles-populaires{
